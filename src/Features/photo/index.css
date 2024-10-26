@@ -1,0 +1,28 @@
+.photo{
+    background-image: url('../../assets/img/photo_2024-08-21_15-04-57.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-self: center;
+    border-radius: 125px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .photo{
+        background-image: url('../../assets/img/photo_2024-08-21_15-04-57.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 60vw;
+        width: 60vw;
+        display: flex;
+        align-self: center;
+        border-radius: 30vw;
+        margin-top: 20px;
+    }
+}

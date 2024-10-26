@@ -1,0 +1,16 @@
+.mobile-conteiner {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .mobile {
+    }
+    
+    .mobile-conteiner {
+        display: flex;
+        flex-direction: column;
+        /* max-height: calc(100vh - 41px); */
+        max-height: 100vh;
+        overflow: scroll;
+    }
+}

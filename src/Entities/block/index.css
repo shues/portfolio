@@ -1,0 +1,17 @@
+.block{
+    width: calc(100vw - 40px);
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.block_light{
+    background-color: white;
+    color: #1f3864;
+}
+
+.block_dark{
+    background-color: #1f3864;
+    color: white;
+}

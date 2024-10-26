@@ -1,0 +1,13 @@
+.descktop-conteiner {
+    display: flex;
+    width: 1200px;
+    background-color: white;
+    border: 1px solid #1f3864;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+@media screen and (max-width: 1000px) {
+    .descktop-conteiner{
+        display: none;
+    }
+}
